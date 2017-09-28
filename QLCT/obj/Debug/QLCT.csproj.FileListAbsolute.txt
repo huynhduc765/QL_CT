@@ -1,0 +1,10 @@
+D:\GITHUB\QL_CT\QLCT\bin\Debug\QLCT.exe.config
+D:\GITHUB\QL_CT\QLCT\bin\Debug\QLCT.exe
+D:\GITHUB\QL_CT\QLCT\bin\Debug\QLCT.pdb
+D:\GITHUB\QL_CT\QLCT\obj\Debug\QLCT.csprojResolveAssemblyReference.cache
+D:\GITHUB\QL_CT\QLCT\obj\Debug\QLCT.Properties.Resources.resources
+D:\GITHUB\QL_CT\QLCT\obj\Debug\QLCT.csproj.GenerateResource.Cache
+D:\GITHUB\QL_CT\QLCT\obj\Debug\QLCT.csproj.CoreCompileInputs.cache
+D:\GITHUB\QL_CT\QLCT\obj\Debug\QLCT.exe
+D:\GITHUB\QL_CT\QLCT\obj\Debug\QLCT.pdb
+D:\GITHUB\QL_CT\QLCT\obj\Debug\QLCT.Form1.resources
