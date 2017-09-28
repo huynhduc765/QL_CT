@@ -35,6 +35,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
+            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -45,7 +46,7 @@
             0,
             0,
             0});
-            this.numericUpDown1.Location = new System.Drawing.Point(86, 54);
+            this.numericUpDown1.Location = new System.Drawing.Point(95, 73);
             this.numericUpDown1.Maximum = new decimal(new int[] {
             1000000000,
             0,
@@ -57,7 +58,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(39, 116);
+            this.button1.Location = new System.Drawing.Point(48, 135);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(132, 25);
             this.button1.TabIndex = 1;
@@ -67,7 +68,7 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(86, 80);
+            this.textBox1.Location = new System.Drawing.Point(95, 99);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(100, 20);
             this.textBox1.TabIndex = 4;
@@ -80,7 +81,7 @@
             "Đi lại",
             "Mua sắm",
             "Thêm mục mới"});
-            this.comboBox1.Location = new System.Drawing.Point(86, 22);
+            this.comboBox1.Location = new System.Drawing.Point(95, 41);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(100, 21);
             this.comboBox1.TabIndex = 6;
@@ -89,7 +90,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(3, 30);
+            this.label1.Location = new System.Drawing.Point(12, 49);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(77, 13);
             this.label1.TabIndex = 7;
@@ -98,7 +99,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(3, 87);
+            this.label2.Location = new System.Drawing.Point(12, 106);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(45, 13);
             this.label2.TabIndex = 8;
@@ -108,17 +109,25 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(3, 61);
+            this.label3.Location = new System.Drawing.Point(12, 80);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(44, 13);
             this.label3.TabIndex = 9;
             this.label3.Text = "Số Tiền";
             // 
+            // dateTimePicker1
+            // 
+            this.dateTimePicker1.Location = new System.Drawing.Point(15, 12);
+            this.dateTimePicker1.Name = "dateTimePicker1";
+            this.dateTimePicker1.Size = new System.Drawing.Size(180, 20);
+            this.dateTimePicker1.TabIndex = 10;
+            // 
             // formNhapChiTieu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(221, 153);
+            this.ClientSize = new System.Drawing.Size(221, 180);
+            this.Controls.Add(this.dateTimePicker1);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -143,5 +152,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.DateTimePicker dateTimePicker1;
     }
 }
