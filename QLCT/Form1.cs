@@ -24,7 +24,9 @@ namespace QLCT
 
         private void buttonThemChiTieu_Click(object sender, EventArgs e)
         {
-
+            formNhapChiTieu formNhapChiTieu = new formNhapChiTieu();
+            formNhapChiTieu.Activate();
+            formNhapChiTieu.ShowDialog();
         }
     }
 }
