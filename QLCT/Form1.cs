@@ -28,5 +28,19 @@ namespace QLCT
             formNhapChiTieu.Activate();
             formNhapChiTieu.ShowDialog();
         }
+
+        private void buttonBaoCao_Click(object sender, EventArgs e)
+        {
+            Form2 form2 = new Form2();
+            form2.Activate();
+            form2.ShowDialog();
+        }
+
+        private void buttonThemThuNhap_Click(object sender, EventArgs e)
+        {
+            Form3 form3 = new Form3();
+            form3.Activate();
+            form3.ShowDialog();
+        }
     }
 }

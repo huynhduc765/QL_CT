@@ -9,3 +9,5 @@ D:\GITHUB\QL_CT\QLCT\obj\Debug\QLCT.exe
 D:\GITHUB\QL_CT\QLCT\obj\Debug\QLCT.pdb
 D:\GITHUB\QL_CT\QLCT\obj\Debug\QLCT.Form1.resources
 D:\GITHUB\QL_CT\QLCT\obj\Debug\QLCT.formNhapChiTieu.resources
+D:\GITHUB\QL_CT\QLCT\obj\Debug\QLCT.Form2.resources
+D:\GITHUB\QL_CT\QLCT\obj\Debug\QLCT.Form3.resources
